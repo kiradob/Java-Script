@@ -6,7 +6,7 @@ package sem1;
 // Если общего префикса нет, вернуть пусую строку.
 public class java_sem1_task3 {
     public static void main(String[] args) {
-        String[]array={"abc","abcdef","abcqqqqq","abcee"}; // общий префикс "ab"
+        String[]array={"Скажи-ка, дядя, ведь недаром_abc","Скажи-ка, дядя, ведь недаром_abcdef","Скажи-ка, дядя, ведь недаром_abcqqqqq","Скажи-ка, дядя, ведь недаром_abcee"}; // общий префикс "ab"
         String CommonPrefix=findCommonPrefix(array);
         System.out.println(CommonPrefix);
     }
