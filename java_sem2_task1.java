@@ -34,4 +34,4 @@ public class java_sem2_task1 {
             return result;
         }    
 
-}
+} 
