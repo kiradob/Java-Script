@@ -61,12 +61,7 @@ public class Person {
     public void setProfession(String university) {
         this.university = university;
     }
-//  Реализация методов `toString`, `equals` и `hashCode`, чтобы мы могли
-//  легко преобразовывать объекты Person в строки, сравнивать их и использовать
-//  их в качестве ключей в HashMap.
-//   
-//  Мы также создаем метод `sayHello`, который просто выводит на экран
-//  приветствие с именем и профессией человека.
+//  Реализация методов `toString`, `equals` и `hashCode`.
 
     @Override
     public String toString() {
@@ -91,8 +86,8 @@ public class Person {
     public int hashCode() {
         return Objects.hash(firstName, lastName, age, sex, university);
     }
-
-    public void sayHelloUni() {
+//  Метод для приветствия студентов/выпускников Томских ВУЗов HelloUni, выводит на экран приветствие.
+    public void HelloUni() {
          System.out.println("Привет " + firstName + " " + lastName + ", студент/выпускник ВУЗа: " + university + ".");
     }
 }
